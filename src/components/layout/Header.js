@@ -11,10 +11,10 @@ import { addToCart ,dataFetch} from '../../actions/cartActions'
     return(
             <nav className="nav-wrapper  amber darken-4">
                 <div className="container">
-                    <Link to="/" className="brand-logo "><>Wish List</></Link>
+                    <Link to="/" className="brand-logo "><>Shopping Cart</></Link>
                     
                     <ul className="right nav">
-                        <li><Link to="/">Wish</Link></li>
+                        <li><Link to="/">Shop</Link></li>
                         <li><Link to="/cart">My Cart </Link></li>
                         <li><Link to="/cart"><i className="material-icons">card_giftcard </i></Link></li>
                     </ul>
