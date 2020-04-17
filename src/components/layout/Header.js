@@ -15,7 +15,7 @@ import { addToCart ,dataFetch} from '../../actions/cartActions'
                     
                     <ul className="right nav">
                         <li><Link to="/">Wish</Link></li>
-                        <li><Link to="/cart">My Cart <span>({props.products.total})</span></Link></li>
+                        <li><Link to="/cart">My Cart </Link></li>
                         <li><Link to="/cart"><i className="material-icons">card_giftcard </i></Link></li>
                     </ul>
                 </div>
@@ -33,6 +33,7 @@ const mapStateToProps = (state)=>{
 const mapDispatchToProps= (dispatch)=>{
     
     return{
+        
         addToCart: (id)=>{dispatch(addToCart(id))},
         dataFetch: (data)=>{dispatch(dataFetch(data))}
     }
