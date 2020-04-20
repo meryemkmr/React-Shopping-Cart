@@ -9,7 +9,7 @@ import { addToCart ,dataFetch} from '../../actions/cartActions'
          
      }, [])
     return(
-            <nav className="nav-wrapper  amber darken-4">
+            <nav className="nav-wrapper  amber darken-3">
                 <div className="container">
                     <Link to="/" className="brand-logo "><>Shopping Cart</></Link>
                     
